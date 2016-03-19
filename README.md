@@ -4,7 +4,7 @@
 * Removed Peepopen plugin
 * Removed Ctrlp plugin
 
----------- Below is the original content ------------
+## ---------- Below is the original content ------------
 
 Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
 
