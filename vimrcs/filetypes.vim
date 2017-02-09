@@ -20,8 +20,15 @@ au FileType python map <buffer> <leader>D ?def
 
 
 """"""""""""""""""""""""""""""
+" => HTML section
+""""""""""""""""""""""""""""""
+au FileType html setl sw=2 sts=2 et
+
+
+""""""""""""""""""""""""""""""
 " => JavaScript section
 """""""""""""""""""""""""""""""
+au FileType html setl sw=2 sts=2 et
 au FileType javascript call JavaScriptFold()
 au FileType javascript setl fen
 au FileType javascript setl nocindent
