@@ -66,7 +66,7 @@ nmap <leader>w :w!<cr>
 command W w !sudo tee % > /dev/null
 
 " quit all 
-nmap <leader>q :qa<cr>
+nmap <leader>q :xa<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
