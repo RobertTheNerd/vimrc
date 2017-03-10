@@ -163,6 +163,7 @@ if g:NERDTreeHijackNetrw
     augroup NERDTreeHijackNetrw
         autocmd VimEnter * silent! autocmd! FileExplorer
         au BufEnter,VimEnter * call nerdtree#checkForBrowse(expand("<amatch>"))
+        autocmd VimEnter * wincmd p
     augroup END
 endif
 
